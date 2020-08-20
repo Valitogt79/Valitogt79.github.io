@@ -1,1 +1,97 @@
+@import url('htpps://fonts.googleapis.com/css?family=Montserrat:500,700');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #24252a;
+}
+
+li, a, button {
+    font-family: "Monterrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Monterrat", sans-serif;
+    font-size: 42px;
+    color: #edf0f1;
+    cursor: pointer;
+}
+
+h1 span {
+    font-family: "Monterrat", sans-serif;
+    font-weight: 700;
+    color: #00000a;
+}
+
+header {
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding: 30px 10%;
+   
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.nav__links a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section img{
+    width: 55%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    padding: 20px;
+    font-family: "Monterrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+}
+
+footer h3 span {
+    font-weight: 700;
+    color: #00000a;
+}
