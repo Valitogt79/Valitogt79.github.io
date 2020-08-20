@@ -4,21 +4,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: #24252a;
+    background: #edf0f1;
 }
 
 li, a, button {
     font-family: "Monterrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
+    color: #24252a;
     text-decoration: none;
 }
 
 h1 {
     font-family: "Monterrat", sans-serif;
     font-size: 42px;
-    color: #edf0f1;
+    color: #24252a;
     cursor: pointer;
 }
 
@@ -88,7 +88,7 @@ footer h3 {
     font-family: "Monterrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
+    color: #24252a;
 }
 
 footer h3 span {
