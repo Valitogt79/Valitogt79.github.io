@@ -3,22 +3,23 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    background: #edf0f1;
+padding: 0;
 }
 
 li, a, button {
     font-family: "Monterrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #24252a;
+    color: #6141d3;
     text-decoration: none;
 }
+
+
 
 h1 {
     font-family: "Monterrat", sans-serif;
     font-size: 42px;
-    color: #24252a;
+    color: #6141d3;
     cursor: pointer;
 }
 
@@ -33,6 +34,7 @@ header {
     justify-content:  space-between;
     align-items: center;
     padding: 30px 10%;
+    background: #e2e1ff;
    
 }
 
@@ -63,6 +65,11 @@ button {
     
 }
 
+button a {
+    color: #e2e1ff;
+    text-decoration: none;
+}
+
 button:hover{
     background-color: rgba(0,136,169,0.8);
 }
@@ -81,6 +88,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 footer h3 {
