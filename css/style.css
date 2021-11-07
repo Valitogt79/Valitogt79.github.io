@@ -72,13 +72,8 @@ button:hover {
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-section img {
-    width: 55%;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 footer {
