@@ -9,6 +9,12 @@ fetch("markdown/prueba.md")
         //console.log(text);
         $section.innerHTML = new showdown.Converter().makeHtml(text);
     })
+fetch("markdown/prueba2.md")
+    .then((res) => (res.ok ? res.text() : Promise.reject(res)))
+    .then((text) => {
+        //console.log(text);
+        $section.innerHTML = new showdown.Converter().makeHtml(text);
+    })
     .catch((err) => {
         console.log(err);
         let message = err.statusText || "Ocurrió un Error";
