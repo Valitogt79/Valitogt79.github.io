@@ -1,20 +1,19 @@
 @import url('htpps://fonts.googleapis.com/css?family=Montserrat:500,700');
-
 * {
     box-sizing: border-box;
     margin: 0;
-padding: 0;
+    padding: 0;
 }
 
-li, a, button {
+li,
+a,
+button {
     font-family: "Monterrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #6141d3;
     text-decoration: none;
 }
-
-
 
 h1 {
     font-family: "Monterrat", sans-serif;
@@ -31,11 +30,10 @@ h1 span {
 
 header {
     display: flex;
-    justify-content:  space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
     background: #e2e1ff;
-   
 }
 
 .nav__links {
@@ -47,22 +45,21 @@ header {
     padding: 0px 20px;
 }
 
-
-.nav__links a{
+.nav__links a {
     transition: all 0.3s ease 0s;
 }
+
 .nav__links li a:hover {
     color: #0088a9;
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    
 }
 
 button a {
@@ -70,8 +67,8 @@ button a {
     text-decoration: none;
 }
 
-button:hover{
-    background-color: rgba(0,136,169,0.8);
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
 }
 
 section {
@@ -80,7 +77,7 @@ section {
     align-items: center;
 }
 
-section img{
+section img {
     width: 55%;
 }
 
@@ -88,7 +85,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 footer h3 {
