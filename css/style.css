@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html {
+    background-color: rgb(235, 235, 235);
+}
+
 li,
 a,
 button {
@@ -74,6 +78,7 @@ button:hover {
 section {
     width: 1200px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 footer {
