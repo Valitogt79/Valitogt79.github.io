@@ -1,9 +1,9 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500";
 
 body {
   margin: 0 auto;
   max-width: 900px;
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
   padding: 4em 1em;
   color: #566b78;
@@ -64,8 +64,8 @@ td {
 
 th {
   font-weight: 600;
-  background: rgb(130,218,90);
-  color: rgb(7,55,99);
+  background: rgb(130, 218, 90);
+  color: rgb(7, 55, 99);
 }
 
 th,
@@ -79,4 +79,9 @@ td:first-child {
 
 td:last-child {
   width: 22em;
+}
+
+section {
+  margin-top: 2em;
+  background-color: #ffeaa7;
 }
